@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Kiki Xia</title>
+</head>
+<body>
+    <header>
+        <h1>KIKI XIA | UX DESIGNER</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <ul><li><b>Where I grew up:</b> Shanghai, China</li>
+        <li><b>My major:</b> Informatics with a concentration in Human-Computer Interaction (HCI) at Northeastern University</li></ul>
+    </section>
+
+    <section> 
+        <h2>Background</h2>
+        <ul><li><b>Web development:</b> I'm currently at a beginner level in web development with foundational skills in front-end web development such as HTML, CSS, and basic JavaScript. I've created responsive web pages and incorporated simple interactions. Through this course, I'm eager to expand my skills and delve deeper into the dynamic aspects of web development.</li><br>
+        <li><b>Software development:</b> While I don't have a formal background in software development, I am enthusiastic about acquiring new skills in this field. Working as a UX designer, I collaborate with software engineers in the software development lifecycle. I am actively engaged in user research, prototyping and usability testing to ensure the product not only meets functional requirements but also delights and satisfies the end-users.</li></ul>
+    </section>
+
+    <section>
+        <h2>Why I'm Taking This Course</h2>
+        <ul><li>As a UX designer, I want to enhance my skill set and get better understanding of the technical aspects of modern user interfaces through this course. Acquiring proficiency in front-end web development empowers me to seamlessly collaborate with developers. It also ensures a more cohesive implementation of my designs and provides a seamless user experience within the dynamic context of single-page applications. </li></ul>
+    </section>
+
+    <section>
+        <h2>My Favorite Place</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Zermatt" target="_blank">Zermatt, Switzerland</a></h3>
+        <img class="responsive" src="gallery/Switzerland.jpg" alt="Switzerland" width="1000" height="400">
+    </section>
+
+    <section>
+        <h2>Favorite Restaurant</h2>
+        <h3><a href="https://www.row34.com/" target="_blank">ROW 34</a></h3>
+        <img class="responsive" src="gallery/row34.jpeg" alt="Row 34" width="1000" height="400">
+    </section>
+
+    <div class="container">
+        <h3>Subscribe to My Newsletter</h3>
+        <form action="#" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="permission">
+                <input type="checkbox" id="permission" name="permission" required>
+                I agree with Privacy Policy.
+            </label>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
